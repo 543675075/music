@@ -5,6 +5,7 @@ Vue.use(VueRouter)
 
 import SearchSong from "views/searchsong/SearchSong"
 import Home from "views/home/Home"
+import Player from "views/audio/Audio"
 
 const router = new VueRouter({
   routes: [
@@ -19,6 +20,10 @@ const router = new VueRouter({
     {
       path: "/home",
       component: Home
+    },
+    {
+      path: "/player",
+      component: Player
     }
   ],
   mode: "history"

@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <router-view></router-view>
+    
     <tab-bar></tab-bar>
   </div>
 </template>
@@ -13,7 +14,8 @@
     name: "App",
 
     components: {
-      TabBar
+      TabBar,
+      
     }
   }
 

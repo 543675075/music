@@ -1,6 +1,11 @@
 <template>
   <form action="/">
-    <van-search v-model="value" placeholder="请输入搜索关键词" @search="onSearch" @cancel="onCancel"/>
+    <van-search v-model="value" class="search"
+                                placeholder="请输入搜索关键词" 
+                                @search="onSearch" 
+                                @cancel="onCancel"
+                                shape="round"
+                                />
   </form>
 </template>
 <script>
@@ -30,5 +35,8 @@
 </script>
 
 <style scoped>
-
+  /* .van-cell.van-cell--borderless.van-field{
+    background-color: #fff;
+    border-radius: 1.25rem;
+  } */
 </style>

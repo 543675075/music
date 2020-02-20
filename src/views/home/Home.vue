@@ -1,6 +1,5 @@
 <template>
   <div>
-    
     <search-bar></search-bar>
   </div>
 </template>
@@ -12,8 +11,7 @@ import SearchBar from "components/common/search/SearchBar"
 export default {
   name: "Home",
   components: {
-    SearchBar
-  
+    SearchBar,
   }
 }
 </script>
